@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 10px;
+    }
+    nav {
+      margin: 10px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #2c3e50;
+      padding-bottom: 10px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      background: #2c3e50;
+      color: white;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+    @media(max-width:768px){
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Profile Photo -->
+    <img src="Nandishwar.JPG" alt="My Photo">
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>Hello! I’m <b>B.Nandishwar</b>, a passionate web developer eager to create interactive and user-friendly websites. This is my personal portfolio showcasing my skills, projects, and experiences.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Project 1</h3>
+      <p>Simple Address Book is a basic web application where users can
+        store, view, and manage their contact details such as names,
+        phone numbers, and email addresses. It provides an easy-to-use
+        interface to quickly search for and update saved contacts.</p>
+    </div>
+    <div class="card">
+      <h3>Project 2</h3>
+      <p>This project implements an object detection system using TensorFlow and deep learning 
+        techniques. It is capable of identifying and locating multiple objects in images. 
+        The model is trained on large datasets and can detect objects 
+        with bounding boxes and class labels. Applications include surveillance, autonomous 
+        vehicles, and smart vision systems.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python / Java</li>
+        <li>Responsive Web Design</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: <a href="mailto:yourmail@example.com">nandishwar3152@gmail.com</a></p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/https://www.linkedin.com/in/b-nandishwar-77412525a</a></p>
+      <p>GitHub: <a href="#">github.com/Nandishwar3152</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Nandishwar | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
